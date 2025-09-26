@@ -12,6 +12,11 @@ You can then open the folder in any IDE you like.
 ## 2. Install `uv` (quick start)
 Choose one of the methods below. For more information, see: https://docs.astral.sh/uv/getting-started/installation/
 
+### macOS / Linux (install script)
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 ### macOS (Homebrew)
 ```bash
 brew install uv
@@ -22,12 +27,6 @@ Run in an elevated (or user) PowerShell:
 ```powershell
 powershell -ExecutionPolicy Bypass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
-
-### macOS / Linux (install script)
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-After installation, ensure the suggested export/path line from the installer is added to your shell profile (e.g. `~/.zshrc`).
 
 ### Verify installation:
 ```bash

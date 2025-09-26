@@ -1,3 +1,6 @@
+## Project set up
+Go to the `README_SETUP.md` file and follow the instructions.
+
 ## MS Learn Unit URL Extractor
 
 ### Goal

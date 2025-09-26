@@ -1,8 +1,9 @@
+# MS Learn Unit URL Extractor
+
 ## Project set up
 Go to the `README_SETUP.md` file and follow the instructions.
 
-## MS Learn Unit URL Extractor
-
+## Project description
 ### Goal
 Provide a simple, reproducible workflow to (1) extract the Microsoft Learn Catalog JSON and (2) extract all unit (lesson) URLs for a given Microsoft Learn course so they can be imported into Google NotebookLM (`https://notebooklm.google.com/`).
 

@@ -1,0 +1,23 @@
+## Project configuration for minimal Microsoft Learn catalog fetch utility
+
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mslearn-catalog"
+version = "0.1.0"
+description = "Utilities for downloading the Microsoft Learn public catalog API JSON"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+dependencies = [
+    "requests>=2.31,<3",
+]
+
+[project.scripts]
+learn-catalog-dump = "mslearn.catalog_dump:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mslearn"]

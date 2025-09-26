@@ -1,10 +1,13 @@
 # MS-Learn-Catalog-YP
 
 ## 1. Clone the repository
+You can download the ZIP file and create the code locally or clone the repo to a local folder with:
 ```bash
 git clone https://github.com/RvanSchalm/MS-Learn-Catalog-YP.git
 cd MS-Learn-Catalog-YP
 ```
+
+You can then open the folder in any IDE you like.
 
 ## 2. Install `uv` (quick start)
 Choose one of the methods below. For more information, see: https://docs.astral.sh/uv/getting-started/installation/
@@ -37,6 +40,13 @@ This uses the existing `pyproject.toml` and `uv.lock` files.
 uv sync
 ```
 
+## 4. Test set-up is correct
+When you run this in your terminal, you should see: "Hello world"
+```bash
+uv run main.py
+```
+
+## 5. Further use
 You can add dependencies with:
 ```bash
 uv add your_dependency
@@ -46,10 +56,3 @@ You can run python scripts with:
 ```bash
 uv run your_script.py
 ```
-
-## 4. Test set-up is correct
-When you run this in your terminal, you should see: "Hello world"
-```bash
-uv run main.py
-```
-

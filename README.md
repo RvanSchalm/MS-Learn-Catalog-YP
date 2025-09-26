@@ -19,6 +19,7 @@ You should use GitHub Copilot to create a solution for this project. Make sure t
 ## Current Minimal File Layout (You can evolve this)
 ```
 MS-Learn-Catalog-YP/
+  .github/               # Here all your Copilot instructions can be stored
   data/                  # Output folder for your data
   .gitignore             # Can be used to stop git from tracking files
   .python-version        # There to instantiate the requried python version
